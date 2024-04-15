@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Practice</title>
+  <link rel="stylesheet" href="../CSS/copy.css">
+<style>
+  body{
+    background-color: black;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #cat,#dog,#joke{
+      border: 10px solid cyan;
+      border-radius: 10px;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: red;
+}
+    #result1,#result2,#result3{
+    border: 6px solid rgb(246, 255, 0);
+    padding: 7px;
+    margin: 5px;
+    color: rgb(0, 255, 55);
+    }
+</style>
+</head>
+<body>
+  <!-- <h1 style="text-align: center;">Click the Below button to know more about Cats</h1>
+  <button style="align-items: center;" id="cat">Show new fact</button>
+  <p id="result1"></p>
+  <h1 style="text-align: center;">Get random facts about dogs</h1>
+  <button style="align-items: center;" id="dog">Show new fact</button>
+  <img id="result2" >
+  <h1 style="text-align: center;">Get random Jokes</h1>
+  <button style="align-items: center;" id="joke">Show new Joke</button>
+  <p id="result3"></p> -->
+
+
+  <input placeholder="enter country name" id="input" type="text"/>
+  <button id="button">Search</button>
+  <ul id="list">
+  </ul>
+
+   
+</body>
+<script src="../javascript/APIs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</html>
