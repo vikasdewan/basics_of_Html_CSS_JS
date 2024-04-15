@@ -1,0 +1,56 @@
+/* body {
+  font-family: Arial;
+}
+
+#mainImg {
+  width: 78%;
+}
+
+.makeover {
+    color : red;
+    border : 2px solid black;
+    border-radius:  56px;
+    background:linear-gradient(1250deg,yellow,green);
+}
+
+.box {
+  border: 0.25px solid black;
+  background-color: lightgray;
+  width: 200px;
+  padding: 1rem;
+}
+
+.boxLink {
+  text-decoration: none;
+}
+
+.oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+} */
+
+.red {
+  color : red
+}
+.blue{
+  color: blue;
+}
+.divStyle{
+  border: 4px solid black;
+  background-color: pink;
+}
+
+#btn{
+  background-color: blue;
+  color: white;
+}
+
+.h1St{
+  text-decoration: underline;
+  color: purple;
+}
